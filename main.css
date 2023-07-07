@@ -1,0 +1,72 @@
+ @import url('https://fonts.googleapis.com/css2?family=Kaisei+Tokumin:wght@400;500&family=League+Spartan:wght@100;400;600;800&family=Montserrat:wght@400;600;700;800&family=Poppins:wght@300;400;500&display=swap');
+body {
+    background-color: black;
+    color: white;
+    background-image: radial-gradient(70px circle at 40% 36%, rgb(3, 34, 34), transparent);
+    background-repeat: no-repeat;
+    font-family: 'Lobster';
+}
+h3{
+    font-size: 33px;
+}
+p{
+    font-size: 18px;
+}
+.navbar {
+    background-color: teal !important;
+    box-shadow: 0 2px 4px white !important;
+  }
+  .logo img {
+    width: 80px; 
+    object-fit: cover;
+  }
+  .small-logo {
+    border-radius: 50%; 
+  }
+  .navbar-nav li, a{
+    font-size: 17px;
+    font-weight: bold !important;
+  }
+  span{
+    color: teal;
+  }
+  .teal{
+    color: teal;
+  }
+  /* .hero-section{
+    height: 80vh !important;
+  } */
+ .solar-img{
+  object-fit: cover;
+  width: 500px;
+  height: 500px;
+ }
+  .card{
+    background-color: black;
+    box-shadow: 0 2px 4px white !important;
+  }
+  .gradient{
+    background: linear-gradient(0.09deg, #FFFFFF 19.07%, teal 37.46%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -text-fill-color: transparent;
+    font-weight:bold;
+    font-size: 38px;
+}
+
+  @media (max-width:768px) {
+    .card{
+      margin-bottom: 3em !important;
+    }
+    .hero-contents{
+      padding-left: 2em !important;
+    }
+  }
+  @media (min-width:820px) {
+    .card{
+      margin-bottom: 3em !important;
+    }
+  }
+  
+
