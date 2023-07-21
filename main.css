@@ -1,19 +1,19 @@
  @import url('https://fonts.googleapis.com/css2?family=Kaisei+Tokumin:wght@400;500&family=League+Spartan:wght@100;400;600;800&family=Montserrat:wght@400;600;700;800&family=Poppins:wght@300;400;500&display=swap');
 body {
-    background-color: blue;
+    background-color: black;
     color: white;
     background-image: radial-gradient(70px circle at 40% 36%, rgb(3, 34, 34), transparent);
     background-repeat: no-repeat;
     font-family: 'Lobster';
 }
 h3{
-    font-size: 31px;
+    font-size: 33px;
 }
 p{
-    font-size: 15px;
+    font-size: 18px;
 }
 .navbar {
-    background-color:black !important;
+    background-color: teal !important;
     box-shadow: 0 2px 4px white !important;
   }
   .logo img {
@@ -33,9 +33,7 @@ p{
   .teal{
     color: teal;
   }
-  /* .hero-section{
-    height: 80vh !important;
-  } */
+
  .solar-img{
   object-fit: cover;
   width: 500px;
