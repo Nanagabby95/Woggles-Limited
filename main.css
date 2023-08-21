@@ -1,23 +1,32 @@
  @import url('https://fonts.googleapis.com/css2?family=Kaisei+Tokumin:wght@400;500&family=League+Spartan:wght@100;400;600;800&family=Montserrat:wght@400;600;700;800&family=Poppins:wght@300;400;500&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Kaisei+Tokumin:wght@400;500&family=League+Spartan:wght@100;400;600;800&family=Montserrat:wght@400;600;700;800&family=Poppins:wght@300&display=swap');
 body {
     background-color: black;
     color: white;
-    background-image: radial-gradient(70px circle at 40% 36%, rgb(3, 34, 34), transparent);
+    background-image: radial-gradient(65px circle at 40% 36%, rgb(25, 41, 75), transparent);
     background-repeat: no-repeat;
-    font-family: 'Lobster';
+    font-family: 'poppins';
 }
 h3{
     font-size: 33px;
 }
 p{
-    font-size: 18px;
+    font-size: 18px !important;
 }
 .navbar {
-    background-color: teal !important;
+    background-color: black !important;
     box-shadow: 0 2px 4px white !important;
   }
+  ul li a{
+    color: rgb(24, 78, 196) !important;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .navbar ul li a:hover{
+    color: white !important;
+  }
   .logo img {
-    width: 80px; 
+    width: 50px; 
     object-fit: cover;
   }
   .small-logo {
@@ -28,10 +37,10 @@ p{
     font-weight: bold !important;
   }
   span{
-    color: teal;
+    color: rgb(24, 78, 196) !important;
   }
   .teal{
-    color: teal;
+    color: rgb(24, 78, 196) !important;
   }
 
  .solar-img{
@@ -44,7 +53,7 @@ p{
     box-shadow: 0 2px 4px white !important;
   }
   .gradient{
-    background: linear-gradient(0.09deg, #FFFFFF 19.07%, teal 37.46%);
+    background: linear-gradient(0.09deg, #FFFFFF 19.07%,  rgb(24, 78, 196) 37.46%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -52,13 +61,187 @@ p{
     font-weight:bold;
     font-size: 38px;
 }
+.carousel-item div{
+  background-color: white;
+  padding: 0 50px !important;
+}
+.carousel-caption h5{
+    font-weight: bold;
+    font-size: 25px;
+}
+.carousel-caption{
+  /* width: 100%; */
+}
+.carousel-caption  p{
+    font-weight: bold;
+    font-size: 18px;
+}
+.video-row-wrapper{
+  color: black;
+  background-color: #f5f5f5;
+  padding: 30px 0;
+}
+.featured-services1{
+  border-bottom: 2px solid black !important;
+  padding: 6px 0;
+}
+.icon-group{
+  font-size: 34px !important;
+}
+.vid-wrapper p{
+  justify-items: justify;
+}
+.icon-group:hover{
+box-shadow: 15px 15px black;
+cursor: pointer;
+color: black;
+transition: .4s ease-in;
+}
+.banner{
+  border-radius: 10px !important;
+  width: 50%;
+  object-fit: cover;
+}
+.vid-wrapper button{
+  padding: 10px 40px;
+  background-color:black;
+  border-color:white;
+  color:wheat ;
+  border-bottom-left-radius: 50px;
+  margin: 15px 0;
+  font-size: 22px;
+  font-weight: bold;
+}
+.vid-wrapper button:hover{
+  color: white;
+  background-color: rgb(24, 78, 196);
+  transition: .3s ease-in;
+}
+.img-fluid{
+  border-radius: 10px !important;
+}
+.newsletter-section input{
+  width: 70% !important;
+  padding: 20px !important;
+  border-radius: 6px;
+}
+.newsletter-section ion-icon{
+  font-size: 36px !important;
+  color: white!important;
+}
+.newsletter-section button , .modal-content button{
+  background-color: rgb(24, 78, 196);
+  padding: 6px 20px;
+  border-radius: 10px;
+  border: none;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 5px 0;
+  color: white;
+}
+.slide-section {
+  transform: translateY(100%);
+  opacity: 0;
+  transition: transform 1s ease-in-out, opacity 1s ease-in-out;
+}
 
+.slide-animate {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+  background-color: white;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 50%;
+}
+
+.close {
+  color: #aaa;
+  text-align:  right !important;
+  font-size: 44px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.input-group input{
+  border-radius: 20px;
+  width: 100% !important;
+  font-weight: bold;
+}
+.form-container label{
+  font-size: 18px;
+}
+
+footer li a{
+  text-decoration: none;
+}
+footer li a:hover{
+  color: white;
+  transition: .2s ease-in;
+}
+.btn-outline-primary:hover{
+  color: black !important;
+}
   @media (max-width:768px) {
     .card{
       margin-bottom: 3em !important;
     }
     .hero-contents{
       padding-left: 2em !important;
+    }
+    form{
+      width: 100% !important;
+    }
+    .modal-content{
+      width: 100% !important;
+    }
+  }
+
+  @media (max-width:400px) {
+    .newsletter-form input{
+      width: 100% !important;
+    }
+    .gradient{
+      font-size: 24px !important;
+    }
+  }
+  @media (max-width:280px) {
+    .newsletter-form input{
+      width: 100% !important;
+      margin: 0 !important;
     }
   }
   @media (min-width:820px) {
